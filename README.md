@@ -2,7 +2,7 @@
 Task 1 – Data Quality Issues
 The dataset was loaded from the Excel file using pandas:
 
-df = pd.read_excel("Chocolate_Sales.xlsx")
+df = pd.read_csv("Chocolate_Sales(2).csv")
 The first rows were inspected using df.head() to check the content.
 Data types were checked using df.dtypes.
 Observed issues:
